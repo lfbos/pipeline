@@ -48,7 +48,7 @@ build:
     - script:
         name: go test
         code: |
-          go test -v ${glide novendor}
+          go test -v $(glide novendor)
 
     - script:
         name: copy iles to wercker output
