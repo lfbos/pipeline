@@ -63,5 +63,5 @@ deploy:
         cmd: /pipeline/source/pipeline
         port: "8080"
         tag: latest
-        repository: lfbos19/pipeline
+        repository: lfbos19/mypipeline
         registry: https://registry.hub.docker.com
