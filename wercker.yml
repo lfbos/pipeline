@@ -60,11 +60,11 @@ deploy:
     - internal/docker-push:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
-        cmd: /pipeline/source/pipeline
         port: "8080"
         tag: latest
         repository: lfbos19/mypipeline
         registry: https://registry.hub.docker.com
+        cmd: ./main
 #    - cng/cf-deploy:
 #           api: $API
 #           user: $USER
